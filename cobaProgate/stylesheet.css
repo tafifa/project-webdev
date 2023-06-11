@@ -1,0 +1,101 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+.header {
+    color: white;
+    height: 90px;
+    background-color: #26d0c9;
+    
+}
+.header-logo {
+    float: left;
+    padding: 20px 40px;
+}
+.header-list li {
+    float: left;
+    list-style: none;
+    padding: 33px 20px;
+}
+.title {
+    margin: 100px 80px;
+}
+.title h1 {
+    font-size: 140px;
+}
+.title span {
+    color: red;
+}
+.title h2 {
+    font-size: 60px;
+}
+.menu {
+    margin: 100px 80px;
+    height: 500px;
+}
+.menu-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dee7ec;
+}
+.menu-option {
+    padding-top: 50px;
+    font-size: 24px;
+}
+.menu-option li {
+    list-style: none;
+    float: left;
+    padding-right: 40px;
+}
+.html img,.php img,.ruby img,.swift img {
+    padding-bottom: 30px;
+}
+.form {
+    margin: 100px 80px;
+    padding-bottom: 30px;
+}
+.form-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dee7ec;
+}
+.form-option {
+    padding-top: 50px;
+}
+.email input, .message textarea, .submit button {
+    width: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    border-color: #dee7ec;
+}
+.email, .message{
+    margin-bottom: 30px;
+}
+.submit button{
+     background-color: #dee7ec;
+     color: #889eab;
+}
+.footer {
+    height: 120px;
+    padding: 40px;
+    background-color: #2f5167;
+    color: white;
+}
+.footer-title {
+    float: left;
+    font-size: 32px;
+}
+.footer-option {
+    float: right;
+}
+.footer-option li {
+    list-style: none;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+.homepage {
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.title-page {
+    padding-top: 60px;
+}
+.title-page {
+    font-family: fantasy;
+    color: orange;
+}
+.title-page span {
+    font-size: 70px;
+    color: rgb(196, 127, 0);
+}
+.title-page h1 {
+    font-size: 70px;
+}
+.desc-page {
+    color: orange;
+    padding-top: 30px;
+}
+.profile-page {
+    color: white;
+    padding-top: 30px;
+}
