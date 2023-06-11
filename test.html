@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <label for="">Nama : </label>
+    <input id="name" type="text">
+    
+    <label for="">Password : </label>
+    <input id="pwd" type="text">
+    <button id="submit">SUBMIT</button>
+  </body>
+  <script src="test.js">
+    const btn = document.getElementById('submit');
+   
+    btn.addEventListener('click', function() {
+      var name = document.getElementById('name').value;
+      var pwd = document.getElementById('pwd').value;
+      
+    })
+
+    let inpt = [];
+
+    const usr = {
+        nm : name,
+        pw : pwd
+    }
+
+    inpt.push(usr);
+
+
+
+  </script>
+</html>
